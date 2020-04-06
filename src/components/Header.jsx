@@ -4,8 +4,8 @@ import "./Header.css";
 export default function Header() {
   return (
     <header>
+      <SiteIcon />
       <nav>
-        <SiteIcon />
         <Options />
       </nav>
     </header>

@@ -1,13 +1,52 @@
-h2 {
-  font-weight: bold;
+.Present {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  padding: 50px;
 }
 
-.text {
-  opacity: 0.8;
+h2 {
   display: flex;
-  align-items: flex-start;
   flex-wrap: wrap;
-  flex-direction: row;
-  margin-right: 50px;
-  margin-left: 50px;
+  font-weight: bold;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+
+.aboutText {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: flex-start;
+  padding-left: 50px;
+}
+
+.projectText {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: flex-start;
+  padding-left: 50px;
+}
+
+.aboutText > p > a {
+  text-decoration: none;
+  color: black;
+}
+
+.aboutText > p > a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.projectText > h3 {
+  padding-bottom: 20px;
+}
+
+.projectText > video {
+  margin-top: 30px;
+  margin-bottom: 90px;
+  box-shadow: 2px 2px 80px darkgray;
 }
