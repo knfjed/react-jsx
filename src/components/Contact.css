@@ -1,0 +1,52 @@
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  font-size: 16px;
+}
+
+form {
+  width: 460px;
+}
+
+.contactForm input[type="text"],
+input[type="number"],
+input[type="mail"] {
+  border: solid 1px #aaa;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.contactForm input[name="text"] {
+  width: 300px;
+  height: 200px;
+}
+
+.contactForm input[type="submit"] {
+  margin-left: 240px;
+  margin-top: 20px;
+  width: 50px;
+}
+
+.contactForm input[type="text"],
+input[type="mail"],
+input[type="number"] {
+  font: 15px/24px sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0.3em;
+  transition: 0.3s;
+  letter-spacing: 1px;
+  color: #aaaaaa;
+  border: 1px solid #ffffff;
+  box-shadow: 1px 1px 2px 0 #707070 inset;
+  border-radius: 4px;
+}
+
+.contactForm input[type="text"],
+input[type="mail"],
+input[type="number"]:focus {
+  outline: none;
+  box-shadow: inset 1px 1px 2px 0 #c9c9c9;
+}

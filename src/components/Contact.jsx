@@ -1,6 +1,7 @@
 import React from "react";
-import "./Contact.css";
 import "./Main.css";
+import "./Contact.css";
+import "./btn.css";
 
 export default function Contact() {
   return (

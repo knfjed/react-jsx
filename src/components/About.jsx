@@ -1,5 +1,6 @@
 import React from "react";
 import "./Main.css";
+import "./About.css";
 
 export default function About() {
   return (
@@ -27,8 +28,10 @@ function Present() {
         これからは働く場所や時間に制約されない生き方を模索していきます。
         <br />
         <br />
-        Github :{" "}
-        <a href="https://github.com/knfjed">https://github.com/knfjed</a>
+        Github :
+        <a href="https://github.com/knfjed" className="btn-right-radius">
+          https://github.com/knfjed
+        </a>
       </p>
     </div>
   );

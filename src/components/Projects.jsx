@@ -1,5 +1,6 @@
 import React from "react";
 import "./Main.css";
+import "./Project.css";
 
 export default function Projects() {
   return (
