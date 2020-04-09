@@ -1,4 +1,4 @@
-.aboutText {
+.about-section {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -7,7 +7,7 @@
   padding-left: 50px;
 }
 
-.btn-right-radius {
+.link-button {
   display: inline-block;
   padding: 0.25em 0.5em;
   background: #ececec;
@@ -16,6 +16,6 @@
   margin-left: 20px;
 }
 
-.btn-right-radius:hover {
+.link-button:hover {
   background: #636363;
 }

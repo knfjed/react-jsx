@@ -1,38 +1,24 @@
 import React from "react";
-import "./Main.css";
+import SectionTitle from "../SectionTitle";
 import "./About.css";
 
 export default function About() {
   return (
-    <div className="Present">
-      <AboutMe />
-      <Present />
-    </div>
-  );
-}
+    <section className="about-section">
+      <SectionTitle title="About" />
 
-function AboutMe() {
-  return <h2>ABOUT</h2>;
-}
-
-function Present() {
-  return (
-    <div className="aboutText">
       <h3>Kana Fujieda</h3>
       <p>
-        WEBデザイン/HTML/CSS/建築/精神医療/ソーシャルワーク/写真/旅
+        WEBデザイン/HTML/CSS/Javascript/Node.js/React/建築/精神医療/写真/旅
         <br />
         <br />
         手を動かして自分でデザインしたくなり、2019年冬〜WEBデザインを学んでいます。
         <br />
         これからは働く場所や時間に制約されない生き方を模索していきます。
-        <br />
-        <br />
-        Github :
-        <a href="https://github.com/knfjed" className="btn-right-radius">
+        {/* <a href="https://github.com/knfjed" className="link-button">
           https://github.com/knfjed
-        </a>
+        </a> */}
       </p>
-    </div>
+    </section>
   );
 }

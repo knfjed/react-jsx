@@ -1,4 +1,4 @@
-.projectText {
+.projects-section {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -17,11 +17,11 @@
   color: black;
 }
 
-.projectText > h3 {
+.projects-section > h3 {
   padding-bottom: 20px;
 }
 
-.projectText > video {
+.projects-section > video {
   margin-top: 30px;
   margin-bottom: 90px;
   box-shadow: 2px 2px 80px darkgray;

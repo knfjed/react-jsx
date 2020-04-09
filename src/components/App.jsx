@@ -1,21 +1,22 @@
 import React from "react";
-import About from "./About";
+import About from "./sections/About";
+import Contact from "./sections/Contact";
+import Footer from "./sections/Footer";
+import Header from "./sections/Header";
+import Projects from "./sections/Projects";
+import TopImage from "./sections/TopImage";
+
 import "./App.css";
-import Contact from "./Contact";
-import Footer from "./Footer";
-import Header from "./Header";
-import Projects from "./Projects";
-import TopImage from "./TopImage";
 
 export default function App() {
   return (
-    <div className="container">
+    <>
       <Header />
       <TopImage />
       <About />
       <Projects />
       <Contact />
       <Footer />
-    </div>
+    </>
   );
 }

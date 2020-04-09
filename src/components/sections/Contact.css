@@ -1,4 +1,4 @@
-.contactForm {
+.contact-section {
   display: flex;
   flex-direction: column;
   padding-left: 50px;
@@ -9,7 +9,7 @@ form {
   width: 460px;
 }
 
-.contactForm input[type="text"],
+.contact-section input[type="text"],
 input[type="number"],
 input[type="mail"] {
   border: solid 1px #aaa;
@@ -18,18 +18,18 @@ input[type="mail"] {
   font-size: 16px;
 }
 
-.contactForm input[name="text"] {
+.contact-section input[name="text"] {
   width: 300px;
   height: 200px;
 }
 
-.contactForm input[type="submit"] {
+.contact-section input[type="submit"] {
   margin-left: 240px;
   margin-top: 20px;
   width: 50px;
 }
 
-.contactForm input[type="text"],
+.contact-section input[type="text"],
 input[type="mail"],
 input[type="number"] {
   font: 15px/24px sans-serif;
@@ -44,9 +44,22 @@ input[type="number"] {
   border-radius: 4px;
 }
 
-.contactForm input[type="text"],
+.contact-section input[type="text"],
 input[type="mail"],
 input[type="number"]:focus {
   outline: none;
   box-shadow: inset 1px 1px 2px 0 #c9c9c9;
+}
+
+.btn-gradient-radius {
+  font-size: 12px;
+  border-radius: 25px;
+  text-decoration: none;
+  color: #fff;
+  background-image: linear-gradient(45deg, lightgray 0%, rgb(49, 49, 49) 100%);
+  transition: 0.4s;
+}
+
+.btn-gradient-radius:hover {
+  background-image: linear-gradient(45deg, lightgray 0%, #ff7c5c 100%);
 }
