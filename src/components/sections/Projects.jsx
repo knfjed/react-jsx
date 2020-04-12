@@ -15,7 +15,7 @@ export default function Projects() {
         languageUsed="使用言語 : HTML5 / CSS3"
         teachingMaterial="学習教材 : SAMURAIエンジニア塾 / 『HTML5/CSS3 モダンコーディング』吉田真麻著 翔泳社 2015"
         times="制作 : 2019年12月末"
-      ></Article>
+      />
       <video
         source
         src="../../images/portfolio-html-css.mov"
