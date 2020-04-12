@@ -20,9 +20,6 @@ function Options() {
   return (
     <ul>
       <li>
-        <a href="#top"></a>
-      </li>
-      <li>
         <a href="#about">ABOUT</a>
       </li>
       <li>

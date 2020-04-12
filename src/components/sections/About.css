@@ -5,17 +5,10 @@
   align-items: baseline;
   justify-content: flex-start;
   padding-left: 50px;
+  margin-bottom: 50px;
 }
 
-.link-button {
-  display: inline-block;
-  padding: 0.25em 0.5em;
-  background: #ececec;
-  border-radius: 0 15px 15px 0;
-  transition: 0.4s;
-  margin-left: 20px;
-}
-
-.link-button:hover {
-  background: #636363;
+.about-section > h3,
+.about-section > p {
+  margin-left: 50px;
 }

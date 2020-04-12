@@ -11,60 +11,9 @@ export default function Contact() {
       <a href="http://github.com/knfjed" className="icon-style">
         <GithubIcon />
       </a>
-      <a href="mailto:exsample@gmail.com">
+      <a href="mailto:exsample@gmail.com" className="icon-style">
         <EmailIcon />
       </a>
-      {/* <form method="post">
-        <table>
-          <tbody>
-            <tr>
-              <td for="name">NAME</td>
-              <td>
-                <input
-                  id="name"
-                  type="text"
-                  name="name"
-                  placeholder="山田太郎"
-                />
-              </td>
-            </tr>
-            <tr>
-              <td for="mail">MAIL</td>
-              <td>
-                <input
-                  id="mail"
-                  type="mail"
-                  name="mail"
-                  placeholder="exsample@gmail.com"
-                />
-              </td>
-            </tr>
-            <tr>
-              <td for="tel">TEL</td>
-              <td>
-                <input
-                  id="tel"
-                  type="number"
-                  name="tel"
-                  placeholder="000-0000-0000"
-                ></input>
-              </td>
-            </tr>
-            <tr>
-              <td for="text">TEXT</td>
-              <td>
-                <input
-                  id="text"
-                  type="text"
-                  name="text"
-                  placeholder="自由にコメントをご記入ください"
-                />
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        <input type="submit" className="btn-gradient-radius" />
-      </form> */}
     </Section>
   );
 }
