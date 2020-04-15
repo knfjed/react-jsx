@@ -6,8 +6,6 @@ import Header from "./sections/Header";
 import Projects from "./sections/Projects";
 import TopImage from "./sections/TopImage";
 
-import "./App.css";
-
 export default function App() {
   return (
     <>

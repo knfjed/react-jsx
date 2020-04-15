@@ -1,7 +1,7 @@
 import React from "react";
 import Section from "../Section";
 import SectionTitle from "../SectionTitle";
-import Article from "../Article";
+import Project from "../Project";
 
 import "./Projects.css";
 
@@ -9,7 +9,7 @@ export default function Projects() {
   return (
     <Section className="projects-section">
       <SectionTitle title="Projects" />
-      <Article
+      <Project
         className="article"
         subtitle="01 - portfolio"
         languageUsed="使用言語 : HTML5 / CSS3"
@@ -24,19 +24,19 @@ export default function Projects() {
         height="auto"
       />
 
-      <Article
+      <Project
         subtitle="02 - portfolio"
         languageUsed="使用言語 : HTML5 / CSS3"
         teachingMaterial="学習教材 : SAMURAIエンジニア塾 / 『HTML5/CSS3 モダンコーディング』吉田真麻著 翔泳社 2015"
         times="制作 : 2019年12月末"
       />
-      <Article
+      <Project
         subtitle="03 - portfolio"
         languageUsed="使用言語 : HTML5 / CSS3"
         teachingMaterial="学習教材 : SAMURAIエンジニア塾 / 『HTML5/CSS3 モダンコーディング』吉田真麻著 翔泳社 2015"
         times="制作 : 2019年12月末"
       />
-      <Article
+      <Project
         subtitle="04 - portfolio"
         languageUsed="使用言語 : HTML5 / CSS3"
         teachingMaterial="学習教材 : SAMURAIエンジニア塾 / 『HTML5/CSS3 モダンコーディング』吉田真麻著 翔泳社 2015"

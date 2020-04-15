@@ -1,13 +1,13 @@
 import React from "react";
-import "./Article.css";
+import "./Project.css";
 
-export default function Article(props) {
+export default function Project(props) {
   return (
-    <article className="article">
+    <div className="project">
       <h3>{props.subtitle}</h3>
       <p>{props.languageUsed}</p>
       <p>{props.teachingMaterial}</p>
       <p>{props.times}</p>
-    </article>
+    </div>
   );
 }
