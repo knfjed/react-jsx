@@ -6,7 +6,7 @@ export default function About() {
   return (
     <section className="about-section">
       <SectionTitle title="About" />
-      <h3>Kana Fujieda</h3>
+      <h2>Kana Fujieda</h2>
       <p>
         WEBデザイン/HTML/CSS/Javascript/Node.js/React/建築/精神医療/写真/旅
         <br />
