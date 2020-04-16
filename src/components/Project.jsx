@@ -1,13 +1,22 @@
 import React from "react";
 import "./Project.css";
 
-export default function Project(props) {
+export default function Project({
+  subtitle,
+  languageUsed,
+  teachingMaterial,
+  times,
+  children,
+}) {
   return (
-    <div className="project">
-      <h3>{props.subtitle}</h3>
-      <p>{props.languageUsed}</p>
-      <p>{props.teachingMaterial}</p>
-      <p>{props.times}</p>
-    </div>
+    <>
+      <div className="project">
+        <h3>{subtitle}</h3>
+        <p>{languageUsed}</p>
+        <p>{teachingMaterial}</p>
+        <p>{times}</p>
+      </div>
+      {children ? children : null}
+    </>
   );
 }
