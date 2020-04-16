@@ -2,9 +2,11 @@ import React from "react";
 import "./Footer.css";
 
 export default function Footer() {
+  const now = new Date();
+
   return (
     <footer className="footer">
-      <p>©︎ 2020 Kana Fujieda.</p>
+      <p>{`©︎ ${now.getFullYear()} Kana Fujieda.`}</p>
     </footer>
   );
 }
